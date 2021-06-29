@@ -1,0 +1,262 @@
+*{margin: 0;padding: 0;}
+
+body{
+    font-family:'Poppins', sans-serif;
+}
+.container_full{
+    width: 100%;
+}
+
+.fix{
+    overflow: hidden;
+}
+.container{
+    display: block;
+    margin: 0 auto;
+    width: 1280px;
+}
+.header_bg{
+    background-image: linear-gradient(45deg,tomato,magenta);
+}
+.top_header{
+    height: 40px;
+}
+.top_address{
+    float: left;
+}
+.top_address h2{
+    float: left;
+    font-size: 19px;
+    color: white;
+    padding: 5px;
+}
+.top_address p{
+    float: left;
+    font-size: 15px;
+    color: white;
+    padding-top: 10px;
+    margin-left: 250px;
+}
+.personal{
+    height: 800px;
+}
+.personal_left{
+    float: left;
+    margin-top: 300px;
+    width: 500px;
+}
+.personal_left h4{
+    font-size: 38px;
+    padding: 7px 0px;
+    font-weight: 700;
+}
+.personal_left h2{
+    font-size: 45px;
+    padding: 7px 0px;
+    font-weight: bolder;
+    color: tomato;
+}
+.personal_left p{
+    font-size: 17px;
+    padding: 10px 0px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+.personal_left a{
+    font-size: 17px;
+    padding: 10px 17px;
+    color: white;
+    background-image: linear-gradient(45deg, lightsalmon,tomato);
+    text-decoration: none;
+    border-radius: 10px;
+    transition: 1.2s ease;
+}
+.personal_left a:hover{
+    background-image: linear-gradient(45deg, tomato,lightsalmon);
+}
+.personal_right{
+    float: right;
+    margin-top: 200px;
+    width: 720px;
+}
+.personal_right img{
+    width: 100%;
+    height: auto;
+}
+.personal_bg{
+    background-image: url(img/header-bg.png);
+    background-repeat: no-repeat;
+    
+}
+
+/*second Section*/
+.biography_bg{
+    background-image: url(img/biography-bg.png);
+    background-repeat: no-repeat;
+}
+.biography{
+    height: 800px;
+}
+.biography_left{
+    float: left;
+    margin-top: 200px;
+    width: 560px;
+}
+.biography_left img{
+    width: 100%;
+    height: auto;
+}
+.biography_right{
+    float: left;
+    margin-top: 300px;
+    width: 550px;
+    margin-left: 170px;
+}
+.biography_right h4{
+    font-size: 38px;
+    padding: 7px 0px;
+    font-weight: 700;
+}
+.biography_right h2{
+    font-size: 45px;
+    padding: 7px 0px;
+    font-weight: bolder;
+    color: tomato;
+}
+.biography_right p{
+    font-size: 17px;
+    padding: 10px 0px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+.biography_right a{
+    font-size: 17px;
+    padding: 10px 17px;
+    color: white;
+    background-image: linear-gradient(45deg, lightsalmon,tomato);
+    text-decoration: none;
+    border-radius: 10px;
+    transition: 1.2s ease all;
+}
+.biography_right a:hover{
+    background-image: linear-gradient(45deg, tomato,lightsalmon);
+}
+
+
+
+/*work Section*/
+
+.work_section{
+    height: 600px;
+}
+.work_section_bg{
+    background-image: url(img/latest-work-bg.png);
+    background-repeat: no-repeat;
+}
+.work_header h2{
+    font-size: 37px;
+    padding: 10px 0px;
+    font-weight: bolder;
+    margin-top: 80px;
+    text-align:center;
+}
+.image_info img{
+    width: 400px;
+    margin-left: 20px;
+    margin-top: 50px;
+    box-shadow: 2px 2px 12px darkgray;
+}
+
+/*client_section*/
+
+.client_section_bg{
+    background-image: url(img/footer-bg.png);
+    background-repeat: no-repeat;
+}
+
+.client_section{
+    height: 800px;
+    width: 600px;
+    margin: 0 auto;
+}
+.client_section_header{
+    margin-top: 100px;
+}
+.client_section_header h2{
+    font-size: 37px;
+    padding: 10px 0px;
+    font-weight: bolder;
+    margin-top: 80px;
+    text-align:center;
+}
+.client_section_header h4{
+    font-size: 23px;
+    padding: 10px 0px;
+    font-weight: bolder;
+    text-align:center;
+    margin-top: 100px;
+}
+.client_section_header h6{
+    font-size: 15px;
+    text-align:center;
+    color: darkgray;
+}
+.client_section_header p{
+    margin-top: 10px;
+    font-size: 15px;
+    padding: 10px 0px;
+    text-align:center;
+}
+.email_info{
+    margin-top: 50px;
+    height: 200px;
+    background-image: linear-gradient(45deg,magenta, tomato);
+    border-radius: 20px;
+}
+.email_info:hover{
+    background-image: linear-gradient(45deg, tomato,magenta);
+    transition: 0.5s ease;
+}
+.email_info p{
+    padding-top: 70px;
+    font-size: 21px;
+    text-align:center;
+    color: white;
+}
+.email_info h2{
+    padding-top: 10px;
+    font-size: 27px;
+    text-align:center;
+    color: white;
+}
+
+.icon{
+    margin-left: 210px;
+    margin-top: 60px;
+}
+.icon img{
+    float: left;
+    width: 37px;
+    height: auto;
+    padding: 5px;
+}
+.icon img:hover{
+    border-bottom: 4px solid tomato;
+    transition: 450ms ease;
+}
+
+/*footer*/
+.footer_bg{
+    background-image: url(img/footer-bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+.footer{
+    height: 100px;
+}
+.footer p{
+    margin-top: 70px;
+    padding: 20px;
+    font-size: 15px;
+    text-align:center;
+}
